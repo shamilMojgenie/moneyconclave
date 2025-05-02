@@ -1,0 +1,75 @@
+---
+import PhotoGrid from "../ui/PhotoGrid.astro";
+---
+
+<div class="">
+    <div class="w-full flex justify-center gap-20 outfit pt-24">
+        <div class="text-black">
+            <h1 class="font-semibold text-7xl">
+                Event <br />
+                <span class="text-[#033861]">Highlights</span>
+            </h1>
+            <div
+                class="flex items-center font-medium text-2xl gap-4 w-full mt-5"
+            >
+                <h4>Endless Possibilities</h4>
+                <div class="p-2 bg-black rounded-full"></div>
+                <h4>Unparalleled Impact</h4>
+            </div>
+        </div>
+        <div class="">
+            <h2 class="font-semibold text-5xl">
+                Introducing <br /> the future of finance
+            </h2>
+            <p class="text-2xl mt-4 max-w-[621px]">
+                In an industry accustomed to static logos and traditional
+                branding, the introduction of a 3D logo marks a paradigm shift.
+                It captures attention, sparks curiosity, and leaves a lasting
+                impression.
+            </p>
+            <div class="flex gap-1 mt-3 items-center">
+                <p class="">More about Money Conclave 2024</p>
+                <img src="/assets/images/png/link_square.png" alt="" />
+            </div>
+        </div>
+    </div>
+    <div class="flex max-w-5xl mx-auto mt-28 gap-8">
+        <div class="w-full flex flex-col gap-8">
+            <PhotoGrid
+                text="Interactive Workshops and TechnicalSessions"
+                image="/assets/images/png/grid1.png"
+                width="250px"
+                height="340px"
+            />
+            <PhotoGrid
+                text="Interactive Workshops and TechnicalSessions"
+                image="/assets/images/png/grid1.png"
+            />
+        </div>
+        <div class="w-full flex flex-col gap-8">
+            <PhotoGrid
+                image="/assets/images/png/logo/icon-main.png"
+            />
+            <div class="flex gap-8">
+                <PhotoGrid
+                    text="Interactive Workshops and TechnicalSessions"
+                    image="/assets/images/png/grid1.png"
+                />
+                <PhotoGrid
+                    text="Interactive Workshops and TechnicalSessions"
+                    image="/assets/images/png/grid1.png"
+                />
+            </div>
+        </div>
+        <div class="w-full flex flex-col gap-8">
+            <PhotoGrid
+                text="Interactive Workshops and TechnicalSessions"
+                image="/assets/images/png/grid1.png"
+            />
+            <PhotoGrid
+                text="Interactive Workshops and TechnicalSessions"
+                image="/assets/images/png/grid1.png"
+            />
+        </div>
+    </div>
+</div>

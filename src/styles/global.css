@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+.dm-sans {
+    font-family: "DM Sans", sans-serif;
+}
+
+.outfit {
+    font-family: "Outfit", sans-serif;
+ }
+
+.noto-sans {
+    font-family: "Noto Sans", sans-serif;
+}

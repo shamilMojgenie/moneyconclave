@@ -1,0 +1,9 @@
+---
+const { image, text, width, height } = Astro.props;
+---
+
+<div class="w-full">
+    <img src={image} alt="" style={`width:${width} height:${height}`} />
+    
+    {text}
+</div>
