@@ -2,74 +2,78 @@
 import PhotoGrid from "../ui/PhotoGrid.astro";
 ---
 
-<div class="">
-    <div class="w-full flex justify-center gap-20 outfit pt-24">
-        <div class="text-black">
-            <h1 class="font-semibold text-7xl">
-                Event <br />
-                <span class="text-[#033861]">Highlights</span>
-            </h1>
-            <div
-                class="flex items-center font-medium text-2xl gap-4 w-full mt-5"
-            >
-                <h4>Endless Possibilities</h4>
-                <div class="p-2 bg-black rounded-full"></div>
-                <h4>Unparalleled Impact</h4>
+<div class="px-4 md:px-[60px] py-12 md:py-24">
+    <div class="lg:max-w-6xl mx-auto flex justify-center">
+        <div
+            class="w-full flex flex-col lg:flex-row justify-center gap-8 lg:gap-14 xl:gap-20 outfit xl:ml-5"
+        >
+            <div class="text-black">
+                <h1 class="font-semibold text-5xl xl:text-7xl">
+                    Event <br />
+                    <span class="text-[#033861]">Highlights</span>
+                </h1>
+                <div
+                    class="flex items-center font-medium text-sm sm:text-lg
+                 md:text-xl xl:text-2xl gap-2 md:gap-4 w-full mt-5"
+                >
+                    <h4 class="whitespace-nowrap">Endless Possibilities</h4>
+                    <div class="p-1.5 md:p-2 bg-black rounded-full"></div>
+                    <h4 class="whitespace-nowrap">Unparalleled Impact</h4>
+                </div>
             </div>
-        </div>
-        <div class="">
-            <h2 class="font-semibold text-5xl">
-                Introducing <br /> the future of finance
-            </h2>
-            <p class="text-2xl mt-4 max-w-[621px]">
-                In an industry accustomed to static logos and traditional
-                branding, the introduction of a 3D logo marks a paradigm shift.
-                It captures attention, sparks curiosity, and leaves a lasting
-                impression.
-            </p>
-            <div class="flex gap-1 mt-3 items-center">
-                <p class="">More about Money Conclave 2024</p>
-                <img src="/assets/images/png/link_square.png" alt="" />
+            <div class="">
+                <h2 class="font-semibold text-3xl xl:text-5xl">
+                    Introducing <br /> the future of finance
+                </h2>
+                <p class="xl:text-2xl mt-4 max-w-[621px]">
+                    In an industry accustomed to static logos and traditional
+                    branding, the introduction of a 3D logo marks a paradigm
+                    shift. It captures attention, sparks curiosity, and leaves a
+                    lasting impression.
+                </p>
+                <div class="flex gap-1 mt-3 items-center">
+                    <p class="">More about Money Conclave 2024</p>
+                    <img src="/assets/images/png/link_square.png" alt="" />
+                </div>
             </div>
         </div>
     </div>
-    <div class="flex max-w-5xl mx-auto mt-28 gap-8">
-        <div class="w-full flex flex-col gap-8">
-            <PhotoGrid
-                text="Interactive Workshops and TechnicalSessions"
-                image="/assets/images/png/grid1.png"
-                width="250px"
-                height="340px"
-            />
-            <PhotoGrid
-                text="Interactive Workshops and TechnicalSessions"
-                image="/assets/images/png/grid1.png"
-            />
-        </div>
-        <div class="w-full flex flex-col gap-8">
-            <PhotoGrid
-                image="/assets/images/png/logo/icon-main.png"
-            />
-            <div class="flex gap-8">
+    <div class="max-w-6xl mx-auto flex justify-center">
+        <div class="flex flex-col md:flex-row mt-12 lg:mt-28 gap-2 lg:gap-4 xl:gap-8">
+            <div class="flex flex-col gap-2 lg:gap-4 xl:gap-8">
                 <PhotoGrid
-                    text="Interactive Workshops and TechnicalSessions"
+                    text="Interactive Workshops and Technical Sessions"
                     image="/assets/images/png/grid1.png"
                 />
+                <PhotoGrid image="/assets/images/png/grid2.png" />
+            </div>
+            <div
+                class="w-full flex flex-col gap-2 lg:gap-4 xl:gap-8 items-center"
+            >
+                <img
+                    src="/assets/images/png/grid-logo.png"
+                    alt=""
+                    class="w-[370px] g:w-96"
+                />
+
+                <div class="flex gap-2 lg:gap-4 xl:gap-8 md:mt-5 xl:mt-7">
+                    <PhotoGrid
+                        text="Interactive Workshops and Technical Sessions"
+                        image="/assets/images/png/grid3.png"
+                    />
+                    <PhotoGrid
+                        text="Exhibition of cutting-edge technologies"
+                        image="/assets/images/png/grid4.png"
+                    />
+                </div>
+            </div>
+            <div class="w-full flex flex-col gap-2 lg:gap-4 xl:gap-8">
+                <PhotoGrid image="/assets/images/png/grid5.png" />
                 <PhotoGrid
-                    text="Interactive Workshops and TechnicalSessions"
-                    image="/assets/images/png/grid1.png"
+                    text="Keynote Speeches from Industry Leaders"
+                    image="/assets/images/png/grid6.png"
                 />
             </div>
-        </div>
-        <div class="w-full flex flex-col gap-8">
-            <PhotoGrid
-                text="Interactive Workshops and TechnicalSessions"
-                image="/assets/images/png/grid1.png"
-            />
-            <PhotoGrid
-                text="Interactive Workshops and TechnicalSessions"
-                image="/assets/images/png/grid1.png"
-            />
         </div>
     </div>
 </div>

@@ -1,9 +1,15 @@
 ---
-const { image, text, width, height } = Astro.props;
+const { image, text } = Astro.props;
 ---
 
-<div class="w-full">
-    <img src={image} alt="" style={`width:${width} height:${height}`} />
-    
-    {text}
+<div class="relative md:w-[180px] lg:w-[200px] xl:w-[250px]  max-h-[336px] min-h-[120px] " >
+    <img src={image} alt="" class="w-full h-full object-cover rounded-4xl" />
+
+    <div class="absolute inset-0 bg-[#052339]/60 rounded-4xl"></div>
+
+    <div
+        class="absolute inset-0 flex items-center justify-center px-4 text-white text-center"
+    >
+        <p class="text-lg xl:text-xl font-semibold">{text}</p>
+    </div>
 </div>

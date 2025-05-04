@@ -6,8 +6,19 @@
 
 .outfit {
     font-family: "Outfit", sans-serif;
- }
+}
 
 .noto-sans {
     font-family: "Noto Sans", sans-serif;
+}
+
+.custom-scroll-hide::-webkit-scrollbar {
+    display: none;
+}
+
+.custom-scroll-hide {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
 }

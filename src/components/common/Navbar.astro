@@ -1,47 +1,64 @@
----
----
+<nav
+    class="w-full absolute top-0 left-0 z-10 px-4 sm:px-8 md:px-15 py-5"
+>
+    <div class="flex justify-between items-center">
+        <img
+            src="/assets/images/png/logo/icon-main.png"
+            alt="Logo"
+            class="h-16 object-cover"
+        />
 
-<nav class="flex justify-between items-center py-5 px-15 absolute top-0 left-0 z-10 w-full">
-    <img
-        src="/assets/images/png/logo/icon-main.png"
-        alt=""
-        class="h-20 object-cover"
-    />
-    <div class="text-[#302256] outfit flex gap-8 items-center">
-        <a href="/">Home</a>
-        <a href="/#aboutus">About us</a>
-        <a href="/#programs" class="flex items-center gap-2"
-            >Programs <img
-                src="/assets/images/png/Down_Arrow.png"
-                alt=""
-                class="w-3 h-2 mt-[2px]"
-            /></a
-        >
-        <a href="/#visit" class="flex items-center gap-2"
-            >Visit <img
-                src="/assets/images/png/down_Arrow.png"
-                alt=""
-                class="w-3 h-2 mt-[2px]"
-            /></a
-        >
-        <a href="/#exhibitors" class="flex items-center gap-2"
-            >Exhibitors <img
-                src="/assets/images/png/down_Arrow.png"
-                alt=""
-                class="w-3 h-2 mt-[2px]"
-            /></a
-        >
-        <div class="flex gap-3">
-            <a
-                href=""
-                class="bg-[#302256] text-white px-5 py-3 rounded-xl"
-                >Become a Partner</a
-            >
-            <a
-                href="#aboutus"
-                class="bg-[#302256] text-white px-5 py-3 rounded-xl"
-                >Register Now</a
-            >
+        <details class="lg:hidden relative">
+            <summary class="list-none cursor-pointer">
+                <svg
+                    class="w-6 h-6 text-[#302256]"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                >
+                    <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M4 6h16M4 12h16M4 18h16"></path>
+                </svg>
+            </summary>
+        </details>
+
+        <div class="text-[#302256] outfit gap-4 xl:gap-8 items-center hidden lg:flex">
+            <a href="/">Home</a>
+            <a href="/#aboutus">About us</a>
+            <a href="/#programs" class="flex items-center gap-2">
+                Programs <img
+                    src="/assets/images/png/down_Arrow.png"
+                    alt=""
+                    class="w-3 h-2 mt-[2px]"
+                />
+            </a>
+            <a href="/#visit" class="flex items-center gap-2">
+                Visit <img
+                    src="/assets/images/png/down_Arrow.png"
+                    alt=""
+                    class="w-3 h-2 mt-[2px]"
+                />
+            </a>
+            <a href="/#exhibitors" class="flex items-center gap-2">
+                Exhibitors <img
+                    src="/assets/images/png/down_Arrow.png"
+                    alt=""
+                    class="w-3 h-2 mt-[2px]"
+                />
+            </a>
+            <div class="flex gap-3">
+                <a href="#" class="bg-[#302256] text-white px-5 py-3 rounded-xl"
+                    >Become a Partner</a
+                >
+                <a
+                    href="#aboutus"
+                    class="bg-[#302256] text-white px-5 py-3 rounded-xl"
+                    >Register Now</a
+                >
+            </div>
         </div>
     </div>
 </nav>
